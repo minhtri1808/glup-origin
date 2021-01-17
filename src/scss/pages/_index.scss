@@ -1,0 +1,19 @@
+:root {
+    --color-primary: #4a90e2;
+    --white: #fff;
+    --black: #32323d;
+    --yellow: #f8e71c;
+    --green: #50e3c2;
+    --red: #e35050;
+    --gray: #dbdbdb;
+}
+
+#go-top {
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    bottom: 5%;
+    transition: 5s;
+    z-index: 999;
+    right: 10px;
+}

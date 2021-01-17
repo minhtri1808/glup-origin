@@ -1,0 +1,66 @@
+section
+	.project-wrapper
+		.project-list
+				.project-menu.container
+						.project--text.project-text__defaul
+							h3 DỰ ÁN
+						.project-title.col.tabs
+							.project-item
+								a.project-tab(href="#panel1") DU LỊCH
+							.project-item
+								a.project-tab(href="#panel2") BẤT ĐỘNG SẢN
+							.project-item
+								a.project-tab(href="#panel3") HÀNG KHÔNG
+							.project-item
+								a.project-tab(href="#panel3") TRUYỀN THÔNG
+							.project-item
+								a.project-tab(href="#panel5") GIÁO DỤC
+							.project-item
+								a.project-tab(href="#panel6") ĐẦU TƯ
+							.project-item
+								a.project-tab(href="#panel7") CÔNG NGHỆ
+						.project--text.dropdown
+							h3 DỰ ÁN
+							.dropdown-content.tabs
+								.project-item
+									a.project-tab(href="#panel1") DU LỊCH
+								.project-item
+									a.project-tab(href="#panel2") BẤT ĐỘNG SẢN
+								.project-item
+									a.project-tab(href="#panel3") HÀNG KHÔNG
+								.project-item
+									a.project-tab(href="#panel3") TRUYỀN THÔNG
+								.project-item
+									a.project-tab(href="#panel5") GIÁO DỤC
+								.project-item
+									a.project-tab(href="#panel6") ĐẦU TƯ
+								.project-item
+									a.project-tab(href="#panel7") CÔNG NGHỆ
+				.panelContainer
+					#panel1.swiper-container.panel
+						.swiper-wrapper
+							-for(i=1;i<=3;i++)
+								.swiper-slide
+									img.ofcv.project--img(src=`./assets/Main/i-2/${i}.png`, alt="")
+						.swiper-button-prev
+						.swiper-button-next
+					.swiper-pagination
+					#panel2.panel
+						.project-item.container
+								a.project-tab(href="#panel2") BẤT ĐỘNG SẢN
+					#panel3.panel
+						.project-item.container
+								a.project-tab(href="#panel3")  HÀNG KHÔNG
+					#panel4.panel
+						.project-item.container
+								a.project-tab(href="#panel4") TRUYỀN THÔNG
+					#panel5.panel
+						.project-item.container
+								a.project-tab(href="#panel5") GIÁO DỤC
+					#panel6.panel
+						.project-item.container
+								a.project-tab(href="#panel6") ĐẦU TƯ
+					#panel7.panel
+						.project-item.container
+								a.project-tab(href="#panel7") CÔNG NGHỆ
+					
